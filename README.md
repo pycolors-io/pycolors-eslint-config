@@ -140,5 +140,6 @@ MIT
 ## Links
 
 -   PyColors → https://pycolors.io
+-   PyColors Docs→ https://pycolors.io/docs
 -   UI → https://github.com/pycolors-io/pycolors-ui
 -   Tokens → https://github.com/pycolors-io/pycolors-tokens
