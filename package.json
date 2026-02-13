@@ -1,9 +1,9 @@
 {
   "name": "@pycolors/eslint-config",
   "version": "0.1.0",
+  "description": "Production-ready ESLint configs for Next.js, React, TypeScript and Turborepo projects.",
   "private": false,
   "type": "module",
-  "sideEffects": false,
   "files": [
     "base.js",
     "next.js",
@@ -12,25 +12,40 @@
     "CHANGELOG.md",
     "LICENSE"
   ],
+  "homepage": "https://github.com/pycolors-io/pycolors-eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pycolors-io/pycolors-eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/pycolors-io/pycolors-eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "nextjs",
+    "react",
+    "typescript",
+    "turborepo",
+    "lint",
+    "code-quality",
+    "developer-tools"
+  ],
   "exports": {
+    ".": "./base.js",
     "./base": "./base.js",
     "./next-js": "./next.js",
     "./react-internal": "./react-internal.js"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "peerDependencies": {
-    "eslint": "^9.0.0",
-    "@eslint/js": "^9.0.0",
-    "eslint-config-prettier": "^10.0.0",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-plugin-turbo": "^2.0.0",
-    "typescript-eslint": "^8.0.0",
-    "globals": "^16.0.0",
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "@next/eslint-plugin-next": ">=15.0.0 <17.0.0"
+    "eslint": ">=9"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   },
   "devDependencies": {
     "eslint": "^9.39.1",
