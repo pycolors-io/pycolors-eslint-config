@@ -1,72 +1,144 @@
+![npm](https://img.shields.io/npm/v/@pycolors/eslint-config)
+![license](https://img.shields.io/npm/l/@pycolors/eslint-config)
+
 # @pycolors/eslint-config
 
-> ⚠️ Read-only mirror
-> Source of truth lives in the PyColors monorepo.
+> ⚠️ **Read-only mirror**
+>
+> This repository is automatically synced from the **PyColors
+> monorepo**.\
+> **Source of truth:**
+> https://github.com/pycolors-io/pycolors/tree/main/packages/eslint-config
+>
+> 👉 Please open issues and pull requests here --- they are synced
+> upstream.
 
-👉 https://github.com/pycolors-io/pycolors/tree/main/packages/eslint-config
+Production-ready ESLint configurations for modern TypeScript and React
+applications.
 
----
+Designed to enforce **consistent code quality**, **predictable
+patterns**, and **scalable architecture** across the PyColors ecosystem.
 
-Shared ESLint flat-config presets used across the PyColors ecosystem (monorepo + public mirrors).
+------------------------------------------------------------------------
 
----
+## Why this exists
+
+Most teams waste time reinventing lint rules.
+
+PyColors provides a **battle-tested baseline** so you can focus on
+shipping product --- not debating formatting rules.
+
+This config is optimized for:
+
+-   Next.js apps
+-   React libraries
+-   Turborepo monorepos
+-   TypeScript-first codebases
+
+------------------------------------------------------------------------
 
 ## Install
 
-```bash
+``` bash
 pnpm add -D @pycolors/eslint-config eslint
+# or
+npm install -D @pycolors/eslint-config eslint
 ```
 
-Then install the required peer dependencies (recommended):
+------------------------------------------------------------------------
 
-```bash
-pnpm add -D @eslint/js eslint-config-prettier typescript-eslint globals
-pnpm add -D eslint-plugin-react eslint-plugin-react-hooks
-pnpm add -D eslint-plugin-turbo eslint-plugin-only-warn
-pnpm add -D @next/eslint-plugin-next
-```
+## Usage
 
----
+### Next.js
 
-## Usage (Next.js)
+Create an `eslint.config.mjs`:
 
-Create `eslint.config.mjs`:
-
-```js
+``` js
 import { nextJsConfig } from "@pycolors/eslint-config/next-js";
 
 export default nextJsConfig;
 ```
 
----
+### React library
 
-## Usage (React libraries)
+``` js
+import { config } from "@pycolors/eslint-config/react-internal";
 
-```js
-import { config as reactInternal } from "@pycolors/eslint-config/react-internal";
-
-export default reactInternal;
+export default config;
 ```
 
----
+### Base config
 
-## Usage (Base)
+``` js
+import { config } from "@pycolors/eslint-config/base";
 
-```js
-import { config as base } from "@pycolors/eslint-config/base";
-
-export default base;
+export default config;
 ```
 
----
+------------------------------------------------------------------------
 
-## Notes
+## What's inside
 
-* This package exports **flat config presets** (ESLint v9+).
-* If you are migrating from `.eslintrc.*`, remove it and use `eslint.config.*` instead.
+This package bundles a curated set of rules:
 
----
+-   ESLint recommended
+-   TypeScript ESLint
+-   React + Hooks
+-   Next.js Core Web Vitals
+-   Prettier compatibility
+-   Turbo rules for monorepos
+-   Only-warn plugin to reduce CI friction
+
+The goal is simple:
+
+👉 strict enough to prevent bugs\
+👉 practical enough to keep velocity high
+
+------------------------------------------------------------------------
+
+## Design philosophy
+
+PyColors tools are built around one principle:
+
+**Consistency scales.**
+
+When every project shares the same lint foundation:
+
+-   onboarding becomes faster
+-   reviews become simpler
+-   architecture becomes predictable
+
+------------------------------------------------------------------------
+
+## Versioning
+
+This package follows **Semantic Versioning**.
+
+-   **1.x** → stable baseline
+-   rule additions → minor
+-   breaking rule changes → major
+
+------------------------------------------------------------------------
+
+## Roadmap
+
+Planned improvements:
+
+-   stricter TypeScript presets
+-   security-focused rules
+-   performance linting
+-   optional formatting layer
+
+------------------------------------------------------------------------
 
 ## License
 
 MIT
+
+------------------------------------------------------------------------
+
+## Links
+
+-   PyColors → https://pycolors.io
+-   UI → https://github.com/pycolors-io/pycolors-ui
+-   Tokens → https://github.com/pycolors-io/pycolors-tokens
