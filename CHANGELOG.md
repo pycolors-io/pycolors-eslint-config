@@ -1,5 +1,30 @@
 # @pycolors/eslint-config
 
+## 1.0.0
+
+### Major Changes
+
+- c051cd9: Introduce the first stable release of @pycolors/eslint-config.
+
+  This package provides production-ready ESLint flat configurations for modern TypeScript, React, and Next.js applications.
+
+  Highlights:
+  - Flat config compatible with ESLint v9+
+  - Shared base rules for monorepos
+  - Next.js Core Web Vitals support
+  - React + Hooks best practices
+  - Prettier compatibility
+  - Turbo-aware linting
+
+  This release marks the beginning of the public PyColors tooling ecosystem.
+
+### Minor Changes
+
+- 5cda90b: Publish @pycolors/eslint-config (flat config presets)
+  - Adds shared flat-config presets for Next.js, React libs and base JS/TS.
+  - Designed for monorepo + public mirror repos (marketing, tokens, templates).
+  - Prevents config drift and keeps lint rules consistent across the ecosystem.
+
 ## 0.1.0
 
 ### Minor Changes
