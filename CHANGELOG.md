@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- fix: ship runtime deps so config works in consumers (vercel build fix)
+
 ## 1.0.0
 
 ### Major Changes
