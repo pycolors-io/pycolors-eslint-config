@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- eeabe18: Update the Globals dependency to 17.8.0.
+
 ## 1.0.1
 
 ### Patch Changes
