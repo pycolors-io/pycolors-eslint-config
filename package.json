@@ -1,6 +1,6 @@
 {
   "name": "@pycolors/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Production-ready ESLint configs for Next.js, React, TypeScript and Turborepo projects.",
   "private": false,
   "type": "module",

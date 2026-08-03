@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.3
+
+### Patch Changes
+
+- 9e0656b: Update ESLint dependency metadata for the publishable packages.
+
 ## 1.0.2
 
 ### Patch Changes
