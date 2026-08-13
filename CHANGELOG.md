@@ -1,5 +1,12 @@
 # @pycolors/eslint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- 5da2fc9: Update the published ESLint configuration to use globals 17.9.0.
+- 8a1e80e: Update the published ESLint configuration to use eslint-plugin-turbo 2.10.8.
+
 ## 1.0.3
 
 ### Patch Changes
