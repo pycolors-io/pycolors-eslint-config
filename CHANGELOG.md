@@ -1,5 +1,12 @@
 # @pycolors/eslint-config
 
+## 1.0.5
+
+### Patch Changes
+
+- 755c0d8: Update the TypeScript build-tool dependency to 6.0.3.
+- be02051: Refresh the React Hooks lint dependency for the supported ESLint toolchain.
+
 ## 1.0.4
 
 ### Patch Changes
