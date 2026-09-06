@@ -1,5 +1,37 @@
 # @pycolors/eslint-config
 
+## 1.0.6
+
+### Patch Changes
+
+- 58ec969: Update the shared ESLint configuration's Next.js plugin dependency to 16.3.3.
+
+## 1.0.5
+
+### Patch Changes
+
+- 755c0d8: Update the TypeScript build-tool dependency to 6.0.3.
+- be02051: Refresh the React Hooks lint dependency for the supported ESLint toolchain.
+
+## 1.0.4
+
+### Patch Changes
+
+- 5da2fc9: Update the published ESLint configuration to use globals 17.9.0.
+- 8a1e80e: Update the published ESLint configuration to use eslint-plugin-turbo 2.10.8.
+
+## 1.0.3
+
+### Patch Changes
+
+- 9e0656b: Update ESLint dependency metadata for the publishable packages.
+
+## 1.0.2
+
+### Patch Changes
+
+- eeabe18: Update the Globals dependency to 17.8.0.
+
 ## 1.0.1
 
 ### Patch Changes
