@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.6
+
+### Patch Changes
+
+- 58ec969: Update the shared ESLint configuration's Next.js plugin dependency to 16.3.3.
+
 ## 1.0.5
 
 ### Patch Changes
