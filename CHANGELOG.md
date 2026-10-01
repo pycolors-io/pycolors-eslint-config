@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.7
+
+### Patch Changes
+
+- 3bbe901: Update the globals dependency to include the maintained environment definitions from globals 17.12.0.
+
 ## 1.0.6
 
 ### Patch Changes
