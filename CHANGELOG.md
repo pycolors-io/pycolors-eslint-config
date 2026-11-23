@@ -1,5 +1,11 @@
 # @pycolors/eslint-config
 
+## 1.0.9
+
+### Patch Changes
+
+- e73b683: Update eslint-plugin-turbo to 2.11.13 in the shared ESLint configuration.
+
 ## 1.0.8
 
 ### Patch Changes
