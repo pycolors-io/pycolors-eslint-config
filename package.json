@@ -1,6 +1,6 @@
 {
   "name": "@pycolors/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Production-ready ESLint configs for Next.js, React, TypeScript and Turborepo projects.",
   "private": false,
   "type": "module",
@@ -47,7 +47,7 @@
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-turbo": "^2.11.11",
+    "eslint-plugin-turbo": "^2.11.13",
     "globals": "^17.12.0",
     "typescript-eslint": "^8.50.0"
   },
